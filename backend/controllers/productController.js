@@ -47,7 +47,7 @@ export const updateProduct=async(req,res)=>{
         const updated=await Product.findByIdAndUpdate(
             req.params.id,
             req.body,
-            {new:true}
+            {new:true} 
         )
 
         res.json({
