@@ -23,7 +23,7 @@ export default function ProductList() {
     useEffect(() => {
         loadProducts();
     }, []);
-z
+
     return(
         <div className="max-w-4xl mx-auto mt-10">
             <div className="flex justify-between items-center mb-6">
